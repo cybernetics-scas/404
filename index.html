@@ -2,7 +2,12 @@
 <html lang="en" >
 <head>
   <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
-  <script>party.confetti(element);</script>
+  <script>party.confetti(element,{
+ count: party.variation.range(30, 60)
+});
+  party.variation.skew(30, 60);
+  party.variation.skewRelative(30, 60);
+  </script>
   <meta charset="UTF-8">
   <title>Cybernetic's - 404</title><link rel="shortcut icon" href="https://raw.githubusercontent.com/cybernetic-tech-maniac/site/main/img.ico">
   <link rel='stylesheet' href='https://codepen.io/uzcho_/pen/eYdmdXw.css'><link rel="stylesheet" href="./style.css">
